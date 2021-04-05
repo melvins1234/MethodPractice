@@ -11,8 +11,8 @@ public class Main {
         System.out.println("Total of vowels: " + countVowel(inputString));
     }
     public static int countWords(String words){
-        String[] wordsSplit = words.split("\\s+");
-        return wordsSplit.length;
+//        String[] wordsSplit = words.split("\\s+");
+        return words.split("\\s+").length;
     }
     public static int countVowel(String words){
         String[] vowels = {"a","e","i","o","u"};
