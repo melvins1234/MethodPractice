@@ -12,6 +12,7 @@ public class Main {
     }
     public static int countWords(String words){
 //        String[] wordsSplit = words.split("\\s+");
+//        return wordsSplit.length;
         return words.split("\\s+").length;
     }
     public static int countVowel(String words){
